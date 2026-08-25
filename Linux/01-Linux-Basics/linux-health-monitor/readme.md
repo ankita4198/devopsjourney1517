@@ -20,3 +20,14 @@ chmod +x health_monitor.sh
 - Text processing (grep, awk)
 - Command substitution
 - File redirection (>>)
+
+
+## Automation with Cron
+
+To run this script automatically every 2 minutes:
+
+```bash
+crontab -e
+```
+
+Add this line:
