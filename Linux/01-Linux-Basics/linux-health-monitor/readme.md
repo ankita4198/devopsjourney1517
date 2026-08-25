@@ -31,3 +31,11 @@ crontab -e
 ```
 
 Add this line:
+
+*/2 * * * * /root/health_monitor.sh
+
+
+Check scheduled jobs:
+```bash
+crontab -l
+```
