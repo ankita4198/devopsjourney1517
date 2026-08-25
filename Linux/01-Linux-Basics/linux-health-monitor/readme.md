@@ -39,3 +39,5 @@ Check scheduled jobs:
 ```bash
 crontab -l
 ```
+
+- Checks CPU usage using `top -bn1`
